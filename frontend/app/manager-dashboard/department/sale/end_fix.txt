@@ -1,0 +1,25 @@
+                                    {selectedProject.formData?.remarks && (
+                                        <div className="mt-4">
+                                            <p className="text-xs text-gray-500 uppercase">Remarks</p>
+                                            <p className="text-sm text-gray-800 italic mt-1">{selectedProject.formData.remarks}</p>
+                                        </div>
+                                    )}
+                                </div>
+                                <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                                    <button
+                                        onClick={() => setShowDetailsModal(false)}
+                                        className="w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 sm:w-auto sm:text-sm"
+                                    >
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
+            </div>
+        </main>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,11 @@
+﻿E:\biology\frontend\app\head-dashboard\department\finance\page.tsx
+E:\biology\frontend\app\head-dashboard\department\humanresource\page.tsx
+E:\biology\frontend\app\head-dashboard\department\sale\page.tsx
+E:\biology\frontend\app\subadmin-dashboard\department\finance\page.tsx
+E:\biology\frontend\app\subadmin-dashboard\department\humanresources\Attendance\page.tsx
+E:\biology\frontend\app\subadmin-dashboard\department\humanresources\Attendance\new-create\page.tsx
+E:\biology\frontend\app\subadmin-dashboard\department\humanresources\Attendance\[id]\edit\page.tsx
+E:\biology\frontend\app\subadmin-dashboard\department\humanresources\Attendance\[id]\view\page.tsx
+E:\biology\frontend\app\subadmin-dashboard\department\sales\page.tsx
+E:\biology\frontend\app\user-dashboard\Payment\page.tsx
+E:\biology\frontend\app\user-dashboard\Tool\page.tsx

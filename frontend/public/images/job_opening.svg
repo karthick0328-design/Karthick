@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#611ca0" />
+  
+  <!-- Right Graphic Circle -->
+  <circle cx="550" cy="400" r="200" fill="#ebd5fa" opacity="0.1" />
+  <circle cx="550" cy="400" r="220" fill="none" stroke="#eab308" stroke-width="40" stroke-linecap="round" stroke-dasharray="1000 300" transform="rotate(-45 550 400)" />
+  
+  <g transform="translate(450, 250)">
+    <!-- Professional Silhouette -->
+    <path d="M100 0 C155 0 200 45 200 100 C200 155 155 200 100 200 C45 200 0 155 0 100 C0 45 45 0 100 0 Z" fill="#fff" opacity="0.3" />
+    <circle cx="100" cy="70" r="40" fill="#fff" />
+    <path d="M30 180 C30 140 60 120 100 120 C140 120 170 140 170 180 L170 200 L30 200 Z" fill="#fff" />
+  </g>
+
+  <!-- Logo area -->
+  <path d="M680 80 L700 60 L720 80 L700 100 Z" fill="#eab308" />
+  <text x="730" y="75" fill="#fff" font-family="Arial, sans-serif" font-weight="900" font-size="20">LOGO</text>
+  <text x="730" y="95" fill="#fff" font-family="Arial, sans-serif" font-weight="900" font-size="20">HERE</text>
+
+  <!-- Typography Left -->
+  <text x="60" y="160" fill="#eab308" font-family="Arial, sans-serif" font-weight="bold" font-size="55">We Are</text>
+  <text x="50" y="270" fill="#fff" font-family="Arial, sans-serif" font-weight="900" font-size="140" letter-spacing="-2">Hiring</text>
+  <text x="60" y="340" fill="#eab308" font-family="Arial, sans-serif" font-weight="bold" font-size="45">Join Our Team</text>
+
+  <!-- Position Pill -->
+  <rect x="60" y="370" width="310" height="50" rx="25" fill="none" stroke="#fff" stroke-width="3" />
+  <circle cx="95" cy="395" r="10" fill="none" stroke="#fff" stroke-width="4" />
+  <line x1="102" y1="402" x2="110" y2="410" stroke="#fff" stroke-width="5" stroke-linecap="round" />
+  <text x="130" y="405" fill="#fff" font-family="Arial, sans-serif" font-weight="bold" font-size="22">Graphic Designer</text>
+
+  <!-- Requirements Section -->
+  <text x="60" y="480" fill="#eab308" font-family="Arial, sans-serif" font-weight="bold" font-size="24">REQUIREMENT</text>
+  
+  <g transform="translate(60, 500)">
+    <circle cx="15" cy="15" r="10" fill="none" stroke="#fff" stroke-width="2" />
+    <path d="M10 15 L14 19 L20 11" fill="none" stroke="#fff" stroke-width="2" />
+    <text x="40" y="20" fill="#fff" font-family="Arial, sans-serif" font-size="14">Lorem ipsum dolor sit amet</text>
+    <text x="40" y="40" fill="#fff" font-family="Arial, sans-serif" font-size="14">consectetuer adipiscing elit</text>
+  </g>
+
+  <g transform="translate(60, 560)">
+    <circle cx="15" cy="15" r="10" fill="none" stroke="#fff" stroke-width="2" />
+    <path d="M10 15 L14 19 L20 11" fill="none" stroke="#fff" stroke-width="2" />
+    <text x="40" y="20" fill="#fff" font-family="Arial, sans-serif" font-size="14">Lorem ipsum dolor sit amet</text>
+    <text x="40" y="40" fill="#fff" font-family="Arial, sans-serif" font-size="14">consectetuer adipiscing elit</text>
+  </g>
+
+  <!-- Bottom White Curve -->
+  <path d="M0 650 Q 400 700 800 500 L800 800 L0 800 Z" fill="#f8fafc" />
+  <path d="M0 665 Q 400 715 800 515 L800 800 L0 800 Z" fill="#ffffff" />
+  
+  <!-- Footer Links -->
+  <g transform="translate(60, 700)">
+    <circle cx="20" cy="20" r="20" fill="#611ca0" />
+    <text x="55" y="15" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Apply Before</text>
+    <text x="55" y="35" fill="#111" font-family="Arial, sans-serif" font-size="18" font-weight="900">10 JULY 2030</text>
+  </g>
+
+  <g transform="translate(300, 700)">
+    <circle cx="20" cy="20" r="20" fill="#611ca0" />
+    <path d="M12 25 L28 15 L12 10 L15 17.5 L22 17.5 L15 17.5 Z" fill="#fff" />
+    <text x="55" y="15" fill="#111" font-family="Arial, sans-serif" font-size="16" font-weight="900">SUBMIT YOUR CV</text>
+    <text x="55" y="35" fill="#555" font-family="Arial, sans-serif" font-size="14">namehere@namehere.com</text>
+  </g>
+
+  <g transform="translate(620, 700)">
+    <text x="100" y="15" fill="#111" font-family="Arial, sans-serif" font-size="18" font-weight="900" text-anchor="end">Workplace Here</text>
+    <text x="100" y="35" fill="#555" font-family="Arial, sans-serif" font-size="12" text-anchor="end">Lorem ipsum dolor sit</text>
+    <path d="M120 15 C120 5 136 5 136 15 C136 25 128 35 128 35 C128 35 120 25 120 15 Z" fill="#611ca0" />
+    <circle cx="128" cy="15" r="4" fill="#fff" />
+  </g>
+
+</svg>
