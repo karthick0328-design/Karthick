@@ -1,0 +1,176 @@
+const departmentFormFields = {
+    'Drug Discovery': {
+        requiredFields: ['compoundName', 'targetProtein', 'assayType', 'screeningMethod', 'expectedOutcome', 'timeline', 'resourcesNeeded', 'remarks', 'services'],
+        fieldTypes: {
+            compoundName: 'string',
+            targetProtein: 'string',
+            assayType: { type: 'enum', options: ['High-throughput', 'Biochemical', 'Cell-based'] },
+            screeningMethod: 'string',
+            expectedOutcome: 'string',
+            timeline: 'date',
+            resourcesNeeded: 'string',
+            remarks: 'string',
+            services: {
+                type: 'multi-enum', options: [
+                    'Virtual screening + Docking',
+                    'ADMET Prediction',
+                    'Toxicity Profiling of compounds',
+                    'QSAR modelling',
+                    'Ligand Search and Creation compound chemistry'
+                ]
+            },
+        },
+        servicesOptions: [
+            'Virtual screening + Docking',
+            'ADMET Prediction',
+            'Toxicity Profiling of compounds',
+            'QSAR modelling',
+            'Ligand Search and Creation compound chemistry'
+        ],
+        conditionalFields: {
+            dockingSoftware: { type: 'enum', options: ['AutoDock', 'Glide', 'GOLD'], condition: ['Virtual screening + Docking'] },
+            admetModel: { type: 'enum', options: ['SwissADME', 'pkCSM', 'ADMETlab'], condition: ['ADMET Prediction'] },
+            toxicityAssay: { type: 'string', condition: ['Toxicity Profiling of compounds'] },
+            qsarDescriptors: { type: 'multi-enum', options: ['Molecular Weight', 'LogP', 'TPSA'], condition: ['QSAR modelling'] },
+            ligandSource: { type: 'enum', options: ['PubChem', 'ZINC', 'Custom'], condition: ['Ligand Search and Creation compound chemistry'] },
+        },
+    },
+    'NGS': {
+        requiredFields: ['sampleName', 'volume', 'species', 'preparationDate', 'concentration', 'totalAmount', 'od260280', 'remarks', 'ratio28s18s', 'services'],
+        fieldTypes: {
+            sampleName: 'string',
+            volume: 'number',
+            species: 'string',
+            preparationDate: 'date',
+            concentration: 'number',
+            totalAmount: 'number',
+            od260280: 'number',
+            remarks: 'string',
+            ratio28s18s: 'number',
+            services: {
+                type: 'multi-enum', options: [
+                    'Whole genome / genome analysis',
+                    'RNA-sequence differential expression analysis',
+                    'Metagenomics (16S and shotgun)',
+                    'Microbiomes profiling',
+                    'Variant annotation and reporting',
+                    'Oncogenomics: tumor-normal analysis',
+                    'Pharmacogenomics'
+                ]
+            },
+        },
+        servicesOptions: [
+            'Whole genome / genome analysis',
+            'RNA-sequence differential expression analysis',
+            'Metagenomics (16S and shotgun)',
+            'Microbiomes profiling',
+            'Variant annotation and reporting',
+            'Oncogenomics: tumor-normal analysis',
+            'Pharmacogenomics'
+        ],
+        conditionalFields: {
+            genomeCoverage: { type: 'number', condition: ['Whole genome / genome analysis'] },
+            genomeType: { type: 'enum', options: ['Whole Genome', 'Exome', 'Targeted Panel'], condition: ['Whole genome / genome analysis'] },
+            sampleGroups: { type: 'string', condition: ['RNA-sequence differential expression analysis'] },
+            replicates: { type: 'number', condition: ['RNA-sequence differential expression analysis'] },
+            sequencingPlatform: { type: 'enum', options: ['16S', 'Shotgun'], condition: ['Metagenomics (16S and shotgun)'] },
+            microbiomeType: { type: 'string', condition: ['Microbiomes profiling'] },
+            variantCaller: { type: 'enum', options: ['GATK', 'FreeBayes', 'DeepVariant'], condition: ['Variant annotation and reporting'] },
+            tumorNormalPair: { type: 'enum', options: ['Matched', 'Unmatched'], condition: ['Oncogenomics: tumor-normal analysis'] },
+            pgxGenes: { type: 'multi-enum', options: ['CYP2D6', 'TPMT', 'VKORC1'], condition: ['Pharmacogenomics'] },
+        },
+    },
+    'Software Development': {
+        requiredFields: ['projectName', 'description', 'techStack', 'requirements', 'timeline', 'teamSize', 'budgetEstimate', 'remarks'],
+        fieldTypes: {
+            projectName: 'string',
+            description: 'string',
+            techStack: ['string'],
+            requirements: 'string',
+            timeline: 'date',
+            teamSize: 'number',
+            budgetEstimate: 'number',
+            remarks: 'string',
+        },
+    },
+    'Microbiology': {
+        requiredFields: ['sampleName', 'volume', 'species', 'preparationDate', 'concentration', 'totalAmount', 'od260280', 'remarks', 'ratio28s18s'],
+        fieldTypes: {
+            sampleName: 'string',
+            volume: 'number',
+            species: 'string',
+            preparationDate: 'date',
+            concentration: 'number',
+            totalAmount: 'number',
+            od260280: 'number',
+            remarks: 'string',
+            ratio28s18s: 'number',
+        },
+    },
+    'Biochemistry': {
+        requiredFields: ['sampleName', 'volume', 'species', 'preparationDate', 'concentration', 'totalAmount', 'od260280', 'remarks', 'ratio28s18s'],
+        fieldTypes: {
+            sampleName: 'string',
+            volume: 'number',
+            species: 'string',
+            preparationDate: 'date',
+            concentration: 'number',
+            totalAmount: 'number',
+            od260280: 'number',
+            remarks: 'string',
+            ratio28s18s: 'number',
+        },
+    },
+    'Molecular Biology': {
+        requiredFields: ['sampleName', 'volume', 'species', 'preparationDate', 'concentration', 'totalAmount', 'od260280', 'remarks', 'ratio28s18s'],
+        fieldTypes: {
+            sampleName: 'string',
+            volume: 'number',
+            species: 'string',
+            preparationDate: 'date',
+            concentration: 'number',
+            totalAmount: 'number',
+            od260280: 'number',
+            remarks: 'string',
+            ratio28s18s: 'number',
+        },
+    },
+    'Biochemistry and Molecular Biology': { // Legacy/Fallback
+        requiredFields: ['sampleName', 'volume', 'species', 'preparationDate', 'concentration', 'totalAmount', 'od260280', 'remarks', 'ratio28s18s'],
+        fieldTypes: {
+            sampleName: 'string',
+            volume: 'number',
+            species: 'string',
+            preparationDate: 'date',
+            concentration: 'number',
+            totalAmount: 'number',
+            od260280: 'number',
+            remarks: 'string',
+            ratio28s18s: 'number',
+        },
+    },
+    'IT': {
+        requiredFields: ['projectName', 'description', 'techStack', 'requirements', 'timeline', 'teamSize', 'budgetEstimate', 'remarks'],
+        fieldTypes: {
+            projectName: 'string',
+            description: 'string',
+            techStack: ['string'],
+            requirements: 'string',
+            timeline: 'date',
+            teamSize: 'number',
+            budgetEstimate: 'number',
+            remarks: 'string',
+        },
+    },
+    'Sales & Customer Support': {
+        requiredFields: ['clientName', 'projectDescription', 'expectedRevenue', 'timeline', 'resourcesNeeded', 'remarks'],
+        fieldTypes: {
+            clientName: 'string',
+            projectDescription: 'string',
+            expectedRevenue: 'number',
+            timeline: 'date',
+            resourcesNeeded: 'string',
+            remarks: 'string',
+        },
+    },
+};

@@ -1,0 +1,150 @@
+﻿[
+  {
+    "_id": "69ccfe32e4f0616fe7f6338c",
+    "department": "Financial",
+    "category": "Purchase Order",
+    "status": "In Progress",
+    "workflowStep": 2,
+    "createdAt": "2026-04-01T11:14:58.115Z",
+    "uniqueId": "PRJ0047"
+  },
+  {
+    "_id": "69ccc2eac5cc5fdbd056f167",
+    "department": "Financial",
+    "category": "Purchase Order",
+    "status": "Under Review",
+    "workflowStep": 3,
+    "createdAt": "2026-04-01T07:02:02.602Z",
+    "uniqueId": "PRJ0046"
+  },
+  {
+    "_id": "69cbb48839dca8bb14892091",
+    "department": "Financial",
+    "category": "Purchase Order",
+    "status": "Under Review",
+    "workflowStep": 3,
+    "createdAt": "2026-03-31T11:48:24.836Z",
+    "uniqueId": "PRJ0045"
+  },
+  {
+    "_id": "69a677bc41076c80a0f750f4",
+    "department": "NGS",
+    "category": "New Project",
+    "status": "Under Review",
+    "workflowStep": 2,
+    "createdAt": "2026-03-03T05:55:08.627Z",
+    "uniqueId": "PRJ0044",
+    "projectProgress": "sequence: 20 = 100000\nanalysis: 20 = 10000",
+    "paymentDetails": {
+      "title": "NGS Project - Human feces",
+      "projectDescription": "NGS service for Metagenomics (16S and shotgun)",
+      "detailedQuotation": "Project Title: Human feces\nTarget Position: Human\nMethodology: Concentration: 10 ng/┬╡L\nExpected Outcome: Volume: 20 ┬╡L\nCompound Details: OD 260/280: 265\nToxicity Assay: 28S/18S Ratio: 1.5\nEnrolled Services: Metagenomics (16S and shotgun)",
+      "dueDate": "2026-03-17T00:00:00.000Z",
+      "amount": 129800,
+      "paidAmount": 64900,
+      "paymentMethod": "UPI",
+      "userSubmittedAt": "2026-03-03T06:33:58.003Z",
+      "salesApprovedAt": null,
+      "approvedBy": null,
+      "_id": "69a680b341076c80a0f75581",
+      "upiId": "karti@sbi"
+    }
+  },
+  {
+    "_id": "69a671e741076c80a0f747a2",
+    "department": "Drug Discovery",
+    "category": "New Project",
+    "status": "In Progress",
+    "workflowStep": 4,
+    "createdAt": "2026-03-03T05:30:15.690Z",
+    "uniqueId": "PRJ0043",
+    "projectProgress": "Docking: 20 = 20000",
+    "paymentDetails": {
+      "title": "lotus",
+      "projectDescription": "Drug Discovery service for Virtual screening + Docking, MD Simulantor",
+      "detailedQuotation": "Project Title: lotus\nTarget Position: PCSK-9\nMethodology: Docking \nExpected Outcome: Docked files\nCompound Details: 200 Docking\nToxicity Assay: N/A\nEnrolled Services: Virtual screening + Docking, MD Simulantor",
+      "dueDate": "2026-03-17T00:00:00.000Z",
+      "amount": 23600,
+      "paidAmount": 11800,
+      "paymentMethod": "Cash",
+      "userSubmittedAt": "2026-03-03T05:35:18.800Z",
+      "salesApprovedAt": "2026-03-03T05:35:35.417Z",
+      "approvedBy": "693690c86d30ad22810f9067",
+      "_id": "69a672f541076c80a0f74972"
+    }
+  },
+  {
+    "_id": "699fdc5e770c061f60fb187a",
+    "department": "Financial",
+    "category": "Purchase Order",
+    "status": "Under Review",
+    "workflowStep": 3,
+    "createdAt": "2026-02-26T05:38:38.516Z",
+    "uniqueId": "PRJ0040"
+  },
+  {
+    "_id": "699fda68770c061f60fb14bb",
+    "department": "Financial",
+    "category": "Purchase Order",
+    "status": "Under Review",
+    "workflowStep": 3,
+    "createdAt": "2026-02-26T05:30:16.128Z",
+    "uniqueId": "PRJ0039"
+  },
+  {
+    "_id": "699ed1cd621942ed1e2bfbcc",
+    "department": "Drug Discovery",
+    "category": "New Project",
+    "status": "Under Review",
+    "workflowStep": 1,
+    "createdAt": "2026-02-25T10:41:17.235Z",
+    "uniqueId": "PRJ0038",
+    "projectProgress": "neam lignands: 50 = 20000",
+    "paymentDetails": {
+      "title": "kkkk",
+      "projectDescription": "Drug Discovery service for Toxicity Profiling of compounds",
+      "detailedQuotation": "Project Title: kkkk\nTarget Position: kkk\nMethodology: kk\nExpected Outcome: greg\nCompound Details: erg\nToxicity Assay: dfbgd\nEnrolled Services: Toxicity Profiling of compounds",
+      "dueDate": "2026-03-16T00:00:00.000Z",
+      "amount": 23600,
+      "paidAmount": 11800,
+      "paymentMethod": "UPI",
+      "userSubmittedAt": "2026-03-02T05:44:02.257Z",
+      "salesApprovedAt": null,
+      "approvedBy": null,
+      "_id": "69a5236f9951f718a690c9df",
+      "upiId": "karthi@sbi"
+    }
+  },
+  {
+    "_id": "699dbb30a4ff2d109e58c1c4",
+    "department": "Drug Discovery",
+    "category": "New Project",
+    "status": "In Progress",
+    "workflowStep": 4,
+    "createdAt": "2026-02-24T14:52:32.702Z",
+    "uniqueId": "PRJ0037",
+    "projectProgress": "1. Target Identification\n2. Compound Screening\n3. Lead Optimization\n4. Pre-clinical Validation",
+    "paymentDetails": {
+      "title": "PCSK9",
+      "projectDescription": "Drug Discovery service for MD Simulantor, Virtual screening + Docking",
+      "detailedQuotation": "Services: MD Simulantor, Virtual screening + Docking\nTarget Protein: N/A\nAssay Type: N/A",
+      "dueDate": "2026-03-13T00:00:00.000Z",
+      "amount": 23598.82,
+      "paidAmount": 11799.41,
+      "paymentMethod": "Cash",
+      "userSubmittedAt": "2026-02-24T15:17:34.274Z",
+      "salesApprovedAt": "2026-02-24T15:18:06.269Z",
+      "approvedBy": "693690c86d30ad22810f9067",
+      "_id": "699dbfc3a4ff2d109e58c5c5"
+    }
+  },
+  {
+    "_id": "699d48d930c9563d2e72ede9",
+    "department": "Financial",
+    "category": "Purchase Order",
+    "status": "In Progress",
+    "workflowStep": 0,
+    "createdAt": "2026-02-24T06:44:41.660Z",
+    "uniqueId": "PRJ0036"
+  }
+]

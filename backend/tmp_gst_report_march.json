@@ -1,0 +1,94 @@
+{
+  "success": true,
+  "data": {
+    "period": {
+      "month": 3,
+      "year": 2026
+    },
+    "summary": {
+      "netGSTPayable": 54,
+      "totalOutputTax": 54,
+      "totalInputTax": 0
+    },
+    "outputTax": {
+      "total": 54,
+      "igst": 54,
+      "cgst": 0,
+      "sgst": 0
+    },
+    "inputTax": {
+      "total": 0,
+      "igst": 0,
+      "cgst": 0,
+      "sgst": 0
+    },
+    "salesData": [
+      {
+        "id": "699ed1cd621942ed1e2bfbcc",
+        "date": "2026-03-02",
+        "docNumber": "PRJ0038",
+        "partyName": "user",
+        "partyGSTIN": "NA",
+        "categoryOrState": "Drug Discovery",
+        "description": "kkkk",
+        "hsnSac": "998111",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 23600,
+        "gstRate": 18,
+        "discount": 0,
+        "isInterState": true
+      },
+      {
+        "id": "69a671e741076c80a0f747a2",
+        "date": "2026-03-03",
+        "docNumber": "PRJ0043",
+        "partyName": "user",
+        "partyGSTIN": "NA",
+        "categoryOrState": "Drug Discovery",
+        "description": "lotus",
+        "hsnSac": "998111",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 23600,
+        "gstRate": 18,
+        "discount": 0,
+        "isInterState": true
+      },
+      {
+        "id": "69a677bc41076c80a0f750f4",
+        "date": "2026-03-03",
+        "docNumber": "PRJ0044",
+        "partyName": "user7",
+        "partyGSTIN": "NA",
+        "categoryOrState": "NGS",
+        "description": "NGS Project - Human feces",
+        "hsnSac": "998111",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 129800,
+        "gstRate": 18,
+        "discount": 0,
+        "isInterState": true
+      }
+    ],
+    "expensesData": [
+      {
+        "id": "69bd3e2ce2ac7a707801872c",
+        "date": "2026-03-20",
+        "docNumber": "EXP",
+        "partyName": "jano",
+        "partyGSTIN": "NA",
+        "categoryOrState": "Water",
+        "description": "dfbbd",
+        "hsnSac": "998311",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 0,
+        "gstRate": 0,
+        "discount": 0,
+        "isInterState": true
+      }
+    ]
+  }
+}

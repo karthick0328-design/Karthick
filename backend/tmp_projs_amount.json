@@ -1,0 +1,61 @@
+[
+  {
+    "id": "699bee6be1ea78ad5939180c",
+    "payment": {
+      "title": "Project Payment",
+      "projectDescription": "Drug Discovery service for ADMET Prediction, MD Simulantor",
+      "detailedQuotation": "Services: ADMET Prediction, MD Simulantor\nTarget Protein: N/A\nAssay Type: N/A",
+      "dueDate": "2026-03-09T00:00:00.000Z",
+      "amount": 23599.9646,
+      "paidAmount": 11799.9823,
+      "paymentMethod": "UPI",
+      "userSubmittedAt": "2026-02-23T07:39:23.230Z",
+      "salesApprovedAt": null,
+      "approvedBy": null,
+      "_id": "699bfc0ee1ea78ad59391979",
+      "upiId": "karthi@sbi"
+    },
+    "quotedAmount": 23599.9646
+  },
+  {
+    "id": "699d48d930c9563d2e72ede9"
+  },
+  {
+    "id": "699dbb30a4ff2d109e58c1c4",
+    "payment": {
+      "title": "PCSK9",
+      "projectDescription": "Drug Discovery service for MD Simulantor, Virtual screening + Docking",
+      "detailedQuotation": "Services: MD Simulantor, Virtual screening + Docking\nTarget Protein: N/A\nAssay Type: N/A",
+      "dueDate": "2026-03-13T00:00:00.000Z",
+      "amount": 23598.82,
+      "paidAmount": 11799.41,
+      "paymentMethod": "Cash",
+      "userSubmittedAt": "2026-02-24T15:17:34.274Z",
+      "salesApprovedAt": "2026-02-24T15:18:06.269Z",
+      "approvedBy": "693690c86d30ad22810f9067",
+      "_id": "699dbfc3a4ff2d109e58c5c5"
+    },
+    "quotedAmount": 23598.82
+  },
+  {
+    "id": "699ed1cd621942ed1e2bfbcc",
+    "payment": {
+      "title": "kkkk",
+      "projectDescription": "Drug Discovery service for Toxicity Profiling of compounds",
+      "detailedQuotation": "Project Title: kkkk\nTarget Position: kkk\nMethodology: kk\nExpected Outcome: greg\nCompound Details: erg\nToxicity Assay: dfbgd\nEnrolled Services: Toxicity Profiling of compounds",
+      "dueDate": "2026-03-16T00:00:00.000Z",
+      "amount": 23600,
+      "paidAmount": 11800,
+      "paymentMethod": "UPI",
+      "userSubmittedAt": "2026-03-02T05:44:02.257Z",
+      "salesApprovedAt": null,
+      "approvedBy": null,
+      "_id": "69a5236f9951f718a690c9df",
+      "upiId": "karthi@sbi"
+    },
+    "quotedAmount": 23600
+  },
+  {
+    "id": "699fda68770c061f60fb14bb"
+  }
+]

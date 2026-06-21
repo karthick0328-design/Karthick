@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "data": {
+    "period": {
+      "month": 4,
+      "year": 2026
+    },
+    "summary": {
+      "netGSTPayable": 0,
+      "totalOutputTax": 0,
+      "totalInputTax": 0
+    },
+    "outputTax": {
+      "total": 0,
+      "igst": 0,
+      "cgst": 0,
+      "sgst": 0
+    },
+    "inputTax": {
+      "total": 0,
+      "igst": 0,
+      "cgst": 0,
+      "sgst": 0
+    },
+    "salesData": [],
+    "expensesData": [
+      {
+        "id": "69ccfe32e4f0616fe7f6338c",
+        "date": "2026-04-01",
+        "docNumber": "PRJ0047",
+        "partyName": "iweniefw",
+        "partyGSTIN": "NA",
+        "categoryOrState": "Procurement",
+        "description": "Self-assigned via Employee Dashboard",
+        "hsnSac": "840000",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 2000,
+        "gstRate": 0,
+        "discount": 0,
+        "isInterState": true
+      }
+    ]
+  }
+}

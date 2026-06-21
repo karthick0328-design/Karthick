@@ -1,0 +1,9 @@
+Loaded middleware: { authenticateUser: 'function', isManager: 'function' }
+[2026-03-11T05:59:07.678Z] 📂 Serving uploads from: E:\biology\backend\uploads (legacy: E:\biology\backend\Uploads)
+[2026-03-11T05:59:07.679Z] 🔍 Loaded MONGODB_URI: mongodb://localhost:27017/biology
+[2026-03-11T05:59:07.717Z] ✅ Connected to MongoDB
+[2026-03-11T05:59:07.720Z] 🚀 Server running at http://localhost:5000
+[2026-03-11T05:59:07.720Z] 🩺 Health check: http://localhost:5000/api/health
+[2026-03-11T05:59:07.720Z] 💬 Socket.io ready for real-time chat
+[2026-03-11T05:59:29.273Z] Socket disconnected: 691adb1f7d723d6f19e24974
+[2026-03-11T05:59:29.283Z] Socket disconnected: 693690906d30ad22810f9062

@@ -1,0 +1,187 @@
+﻿
+Testing E:\biology\frontend ...
+
+Open Issues
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/Compontent/ServiceTeamAttendance.tsx, line 113
+   Info: Unsanitized input from data from a remote resource flows into appendChild, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/Manager-Compontent/services/ProfileContent.tsx, line 292
+   Info: Unsanitized input from a React useState value flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/employee-dashboard/finance/purchase/chat/page.tsx, line 617
+   Info: Unsanitized input from a React useState value flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/employee-dashboard/finance/salary/chat/page.tsx, line 617
+   Info: Unsanitized input from a React useState value flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/employee-dashboard/finance/service/chat/page.tsx, line 617
+   Info: Unsanitized input from a React useState value flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/hr/creation/%5Bid%5D/view/page.tsx, line 213
+   Info: Unsanitized input from a React useState value flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/hr/profile/page.tsx, line 255
+   Info: Unsanitized input from a React useState value flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/member-chat/page.tsx, line 658
+   Info: Unsanitized input from a React useState value flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/tl-dashboard/components/TLProfileContent.tsx, line 284
+   Info: Unsanitized input from a React useState value flows into a script 'src' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/Manager-Compontent/services/ProfileContent.tsx, line 395
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/Manager-Compontent/services/ProfileContent.tsx, line 396
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/employee-dashboard/finance/layout.tsx, line 147
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/employee-dashboard/finance/purchase/page.tsx, line 259
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/employee-dashboard/finance/purchase/page.tsx, line 437
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/finance/expense/page.tsx, line 310
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/finance/requested-services/%5Bid%5D/page.tsx, line 469
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/hr/creation/new-create/page.tsx, line 1272
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/hr/creation/new-create/page.tsx, line 1279
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/hr/creation/page.tsx, line 476
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/hr/creation/page.tsx, line 483
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/hr/profile/page.tsx, line 353
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/hr/profile/page.tsx, line 356
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/tl-dashboard/components/TLProfileContent.tsx, line 382
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/tl-dashboard/components/TLProfileContent.tsx, line 383
+   Info: Unsanitized input from a React useState value flows into a React dynamic 'href' attribute, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] DOM-based Cross-site Scripting (XSS)
+   Path: app/manager-dashboard/department/hr/Attendance/new-create/page.tsx, line 540
+   Info: Unsanitized input from browser storage flows into appendChild, where it is used to dynamically construct the HTML page on client side. This may result in a DOM Based Cross-Site Scripting attack (DOMXSS).
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/employee-dashboard/finance/purchase/chat/page.tsx, line 617
+   Info: Unsanitized input from a React useState value flows into window.open, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/employee-dashboard/finance/purchase/chat/page.tsx, line 624
+   Info: Unsanitized input from a React useState value flows into window.open, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/employee-dashboard/finance/salary/chat/page.tsx, line 617
+   Info: Unsanitized input from a React useState value flows into window.open, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/employee-dashboard/finance/salary/chat/page.tsx, line 624
+   Info: Unsanitized input from a React useState value flows into window.open, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/employee-dashboard/finance/service/chat/page.tsx, line 617
+   Info: Unsanitized input from a React useState value flows into window.open, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/employee-dashboard/finance/service/chat/page.tsx, line 624
+   Info: Unsanitized input from a React useState value flows into window.open, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/manager-dashboard/department/finance/purchase/view/%5Bid%5D/page.tsx, line 225
+   Info: Unsanitized input from a React useState value flows into window.open, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/member-chat/page.tsx, line 658
+   Info: Unsanitized input from a React useState value flows into window.open, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/member-chat/page.tsx, line 665
+   Info: Unsanitized input from a React useState value flows into window.open, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/employee-dashboard/finance/purchase/chat/page.tsx, line 621
+   Info: Unsanitized input from a React useState value flows into url, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/employee-dashboard/finance/salary/chat/page.tsx, line 621
+   Info: Unsanitized input from a React useState value flows into url, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/employee-dashboard/finance/service/chat/page.tsx, line 621
+   Info: Unsanitized input from a React useState value flows into url, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+ Γ£ù [MEDIUM] Open Redirect
+   Path: app/member-chat/page.tsx, line 662
+   Info: Unsanitized input from a React useState value flows into url, where it is used as input for request redirection. This may result in an Open Redirect vulnerability.
+
+
+        
+≡ƒÆí Tip
+
+   You are currently viewing results with --severity-threshold applied.
+   To view all issues, remove the --severity-threshold flag            
+                                                                       
+
+Γò¡ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓò«
+Γöé Test Summary                                         Γöé
+Γöé                                                      Γöé
+Γöé   Organization:      karthickpandi0328               Γöé
+Γöé   Test type:         Static code analysis            Γöé
+Γöé   Project path:      E:\biology\frontend             Γöé
+Γöé                                                      Γöé
+Γöé   Total issues:   38                                 Γöé
+Γöé   Ignored issues: 0 [ 0 HIGH  0 MEDIUM  0 LOW ]      Γöé
+Γöé   Open issues:    38 [ 0 HIGH  38 MEDIUM  0 LOW ]    Γöé
+Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓò»
+    
+≡ƒÆí Tip
+
+   To view ignored issues, use the --include-ignores option.
+                                                            
+
+
+≡ƒÆí Tip
+
+   Some capabilities, including the ability to apply ignores, are unavailable. Retest the project with the --remote-repo-url parameter or from within a repository to enable full functionality.
+                                                                                                                                                                                                

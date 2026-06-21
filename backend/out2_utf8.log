@@ -1,0 +1,53 @@
+﻿Loaded middleware: { authenticateUser: 'function', isManager: 'function' }
+node : E:\biology\backend\node_
+modules\router\lib\route.js:228
+At line:1 char:1
++ node server.js > out2.log 
+2>&1; Get-Content out2.log | 
+Out-String | S ...
++ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          :  
+   NotSpecified: (E:\biology\  
+  back...ib\route.js:228:Str   
+ ing) [], RemoteException
+    + FullyQualifiedErrorId :  
+   NativeCommandError
+ 
+        throw new 
+TypeError('argument handler 
+must be a function')
+        ^
+
+TypeError: argument handler 
+must be a function
+    at Route.<computed> [as 
+post] (E:\biology\backend\node_
+modules\router\lib\route.js:228
+:15)
+    at Object.<anonymous> (E:\b
+iology\backend\routes\softwareI
+ssueRoutes.js:8:6)
+    at Module._compile (node:in
+ternal/modules/cjs/loader:1358:
+14)
+    at Module._extensions..js (
+node:internal/modules/cjs/loade
+r:1416:10)
+    at Module.load (node:intern
+al/modules/cjs/loader:1208:32)
+    at Module._load (node:inter
+nal/modules/cjs/loader:1024:12)
+    at Module.require (node:int
+ernal/modules/cjs/loader:1233:1
+9)
+    at require (node:internal/m
+odules/helpers:179:18)
+    at Object.<anonymous> (E:\b
+iology\backend\server.js:41:29)
+    at Module._compile (node:in
+ternal/modules/cjs/loader:1358:
+14)
+
+Node.js v20.16.0
+

@@ -1,0 +1,19 @@
+Error: Cannot find module './mimeScore'
+Require stack:
+- E:\biology\backend\node_modules\mime-types\index.js
+- E:\biology\backend\node_modules\express\lib\utils.js
+- E:\biology\backend\node_modules\express\lib\application.js
+- E:\biology\backend\node_modules\express\lib\express.js
+- E:\biology\backend\node_modules\express\index.js
+- E:\biology\backend\routes\authRoutes.js
+- E:\biology\backend\[eval]
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (E:\biology\backend\node_modules\mime-types\index.js:17:17)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)

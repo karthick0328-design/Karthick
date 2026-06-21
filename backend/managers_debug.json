@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Babu",
+    "dept": "",
+    "service": "NGS",
+    "role": "manager"
+  },
+  {
+    "name": "sikki",
+    "dept": "",
+    "service": "Drug Discovery",
+    "role": "manager"
+  },
+  {
+    "name": "Saran",
+    "dept": "Financial",
+    "service": "",
+    "role": "manager"
+  },
+  {
+    "name": "ManagerHR",
+    "dept": "Human Resources",
+    "service": "",
+    "role": "manager"
+  },
+  {
+    "name": "sam",
+    "dept": "Sales and Customer Services",
+    "service": "Drug Discovery",
+    "role": "manager"
+  }
+]

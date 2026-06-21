@@ -1,0 +1,23 @@
+{
+  "_id": "693690c86d30ad22810f9067",
+  "name": "sam",
+  "email": "sam@example.com",
+  "password": "$2b$12$VxLNJcL93spIopNK9J0NTOeyknG2VXDtzHoX0Ui7gfGLLZx7F3YM6",
+  "phone": "+918456789012",
+  "country": "Indian",
+  "branch": "Madurai",
+  "role": "manager",
+  "department": "Sales and Customer Services",
+  "service": "Drug Discovery",
+  "seniority": null,
+  "isActive": true,
+  "isVerified": false,
+  "isPasswordSet": false,
+  "razorpayOrderId": null,
+  "activities": [],
+  "importantDates": [],
+  "createdAt": "2025-12-08T08:48:08.573Z",
+  "updatedAt": "2025-12-08T08:48:08.573Z",
+  "uniqueId": "CAG061",
+  "__v": 0
+}

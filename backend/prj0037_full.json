@@ -1,0 +1,356 @@
+{
+  "approvals": {
+    "serviceManager": {
+      "status": "Approved",
+      "reviewedBy": "693690906d30ad22810f9062",
+      "reviewedAt": "2026-02-26T10:08:03.401Z",
+      "remarks": "okay"
+    },
+    "financial": {
+      "status": "Pending"
+    },
+    "hr": {
+      "status": "Pending"
+    }
+  },
+  "financialReview": {
+    "requested": false,
+    "status": "Pending",
+    "selectedProducts": [],
+    "vendors": [],
+    "attachments": []
+  },
+  "purchaseDetails": {
+    "billForm": {
+      "generated": false,
+      "saved": false,
+      "verified": false
+    },
+    "status": "Order Placing",
+    "updatedAt": "2026-02-24T14:52:32.699Z"
+  },
+  "professionalFee": {
+    "amount": 1000,
+    "vendorName": "",
+    "description": "for the purchase things",
+    "addedBy": "693690c86d30ad22810f9067",
+    "addedAt": "2026-03-10T06:15:27.228Z",
+    "updatedAt": "2026-03-10T06:15:34.654Z"
+  },
+  "_id": "699dbb30a4ff2d109e58c1c4",
+  "userId": "691adb1f7d723d6f19e24974",
+  "department": "Drug Discovery",
+  "category": "New Project",
+  "status": "In Progress",
+  "formData": {
+    "titleProject": "PCSK9 docking against neam compounds",
+    "targetPosition": "PCSK9-11CK",
+    "methodology": "Docking Protocol",
+    "expectedOutcome": "Ligands Interactions",
+    "compoundDetailsOrInformation": "Neam Compounds",
+    "timeline": "2026-02-28",
+    "services": [
+      "MD Simulantor",
+      "Virtual screening + Docking"
+    ],
+    "dockingSoftware": "AutoDock",
+    "mdEngine": "growmax"
+  },
+  "remarks": "started",
+  "assignedTo": [
+    "693690906d30ad22810f9062"
+  ],
+  "teamMembers": [
+    "69315898613693fc58ce3c75",
+    "695f3be2009fda69acf82851",
+    "695f3c31009fda69acf82856"
+  ],
+  "submittedAt": "2026-02-24T14:52:32.691Z",
+  "paymentStatus": "Official Receipt Issued",
+  "workflowStep": 4,
+  "reports": [],
+  "activities": [
+    {
+      "description": "Project submitted directly - awaiting quote from SalesManager",
+      "updatedBy": "691adb1f7d723d6f19e24974",
+      "statusChange": "Submitted",
+      "visibility": "Internal",
+      "_id": "699dbb30a4ff2d109e58c1d0",
+      "timestamp": "2026-02-24T14:52:32.747Z",
+      "attachments": []
+    },
+    {
+      "description": "Payment Warning Sent to Client",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "remarks": "Overdue balance warning",
+      "visibility": "Internal",
+      "_id": "699dbc23a4ff2d109e58c302",
+      "timestamp": "2026-02-24T14:56:35.470Z",
+      "attachments": []
+    },
+    {
+      "description": "Quote sent: $23598.82 fixed by SalesManager",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "visibility": "Internal",
+      "_id": "699dbf3aa4ff2d109e58c571",
+      "timestamp": "2026-02-24T15:09:46.523Z",
+      "attachments": []
+    },
+    {
+      "description": "Payment form created by SalesManager with due date 2026-03-13",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "visibility": "Internal",
+      "_id": "699dbfc3a4ff2d109e58c5c7",
+      "timestamp": "2026-02-24T15:12:03.340Z",
+      "attachments": []
+    },
+    {
+      "description": "Payment submitted via Cash (50% amount) - awaiting SalesManager approval",
+      "updatedBy": "691adb1f7d723d6f19e24974",
+      "visibility": "Internal",
+      "_id": "699dc10ea4ff2d109e58c5eb",
+      "timestamp": "2026-02-24T15:17:34.279Z",
+      "attachments": []
+    },
+    {
+      "description": "Partial payment approved via Cash by SalesManager",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "visibility": "Internal",
+      "_id": "699dc12ea4ff2d109e58c644",
+      "timestamp": "2026-02-24T15:18:06.274Z",
+      "attachments": []
+    },
+    {
+      "description": "Partial receipt generated with due date 2026-03-13 by SalesManager ",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "visibility": "Internal",
+      "_id": "699dc21ba4ff2d109e58c69f",
+      "timestamp": "2026-02-24T15:22:03.345Z",
+      "attachments": []
+    },
+    {
+      "description": "Partial receipt generated with due date 2026-03-13 by SalesManager ",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "visibility": "Internal",
+      "_id": "699ec549621942ed1e2bf0ba",
+      "timestamp": "2026-02-25T09:47:53.915Z",
+      "attachments": []
+    },
+    {
+      "description": "Project assigned to sikki (Drug Discovery Manager) by SalesManager after payment",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "statusChange": "Under Review",
+      "visibility": "Internal",
+      "_id": "69a01afc65cce84f7a2440fb",
+      "timestamp": "2026-02-26T10:05:48.275Z",
+      "attachments": []
+    },
+    {
+      "description": "Service Manager Approved. Amount: $23,598.82. Moving to Financial/HR Review.",
+      "updatedBy": "693690906d30ad22810f9062",
+      "visibility": "Internal",
+      "_id": "69a01b8365cce84f7a24425a",
+      "timestamp": "2026-02-26T10:08:03.462Z",
+      "attachments": []
+    },
+    {
+      "description": "Assigned to Team Lead santhosh",
+      "updatedBy": "693690906d30ad22810f9062",
+      "visibility": "Internal",
+      "_id": "69a01b8d65cce84f7a24428e",
+      "timestamp": "2026-02-26T10:08:13.770Z",
+      "attachments": []
+    },
+    {
+      "description": "Task started by Manager",
+      "updatedBy": "693690906d30ad22810f9062",
+      "statusChange": "In Progress",
+      "remarks": "started",
+      "visibility": "Internal",
+      "_id": "69a01bb065cce84f7a2442f6",
+      "timestamp": "2026-02-26T10:08:48.192Z",
+      "attachments": []
+    },
+    {
+      "description": "Team formed by TL",
+      "updatedBy": "693cf79803e91f879e9816e5",
+      "visibility": "Internal",
+      "_id": "69a027dadda6d73bc8a9d32c",
+      "timestamp": "2026-02-26T11:00:42.577Z",
+      "attachments": []
+    },
+    {
+      "description": "[Employee Update] Progress update by employee",
+      "updatedBy": "69315898613693fc58ce3c75",
+      "remarks": "I finished the first task",
+      "visibility": "Internal",
+      "_id": "69a127bcfde35557fa7e71f2",
+      "timestamp": "2026-02-27T05:12:28.114Z",
+      "attachments": []
+    },
+    {
+      "description": "Partial receipt generated with due date 2026-03-13 by SalesManager ",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "visibility": "Internal",
+      "_id": "69a515db9951f718a690b96d",
+      "timestamp": "2026-03-02T04:45:15.764Z",
+      "attachments": []
+    },
+    {
+      "description": "Receipt data updated by SalesManager",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "visibility": "Internal",
+      "attachments": [],
+      "_id": "69afa9fcdd07e34ee6a71a46",
+      "timestamp": "2026-03-10T05:19:56.940Z"
+    },
+    {
+      "description": "Receipt data updated by SalesManager",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "visibility": "Internal",
+      "attachments": [],
+      "_id": "69afb6e3dd07e34ee6a721ac",
+      "timestamp": "2026-03-10T06:14:59.006Z"
+    },
+    {
+      "description": "Professional fee added: ₹1,000",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "visibility": "Internal",
+      "attachments": [],
+      "_id": "69afb6ffdd07e34ee6a721f7",
+      "timestamp": "2026-03-10T06:15:27.366Z"
+    },
+    {
+      "description": "Professional fee updated: ₹1,000",
+      "updatedBy": "693690c86d30ad22810f9067",
+      "visibility": "Internal",
+      "attachments": [],
+      "_id": "69afb706dd07e34ee6a72247",
+      "timestamp": "2026-03-10T06:15:34.666Z"
+    },
+    {
+      "description": "[Manager Update]  P9CSK",
+      "updatedBy": "693690906d30ad22810f9062",
+      "remarks": "I going to finished the second task",
+      "visibility": "External",
+      "attachments": [
+        {
+          "path": "E:\\biology\\backend\\uploads\\progress\\prog-1773208040755-321432435.jpeg",
+          "filename": "WhatsApp Image 2.jpeg",
+          "mimetype": "image/jpeg",
+          "_id": "69b101e8c08ce7f59443b1fd"
+        }
+      ],
+      "_id": "69b101e8c08ce7f59443b1fc",
+      "timestamp": "2026-03-11T05:47:20.773Z"
+    }
+  ],
+  "messages": [
+    {
+      "senderId": "693690c86d30ad22810f9067",
+      "content": "**Urgent**: Payment Warning: Your project PRJ0037 has an overdue balance. Please settle immediately to avoid service interruption.",
+      "timestamp": "2026-02-24T14:56:35.478Z",
+      "_id": "699dbc23a4ff2d109e58c304"
+    },
+    {
+      "senderId": "693690c86d30ad22810f9067",
+      "content": "We need some more information on neam compounds",
+      "timestamp": "2026-02-24T14:58:27.284Z",
+      "_id": "699dbc93a4ff2d109e58c35f"
+    },
+    {
+      "senderId": "693cf79803e91f879e9816e5",
+      "content": "hiii",
+      "timestamp": "2026-02-26T11:56:03.185Z",
+      "_id": "69a034d3dda6d73bc8a9dd92"
+    },
+    {
+      "senderId": "693690906d30ad22810f9062",
+      "content": "hii",
+      "timestamp": "2026-03-10T11:10:19.512Z",
+      "_id": "69affc1bdd07e34ee6a73bfa"
+    }
+  ],
+  "createdAt": "2026-02-24T14:52:32.702Z",
+  "updatedAt": "2026-03-11T05:47:20.794Z",
+  "uniqueId": "PRJ0037",
+  "__v": 27,
+  "baseAmount": 19999,
+  "gst": 18,
+  "memberCost": 0,
+  "projectProgress": "1. Target Identification\n2. Compound Screening\n3. Lead Optimization\n4. Pre-clinical Validation",
+  "quotedAmount": 23598.82,
+  "taxHandling": "Included in the total quoted amount",
+  "paymentDetails": {
+    "title": "PCSK9",
+    "projectDescription": "Drug Discovery service for MD Simulantor, Virtual screening + Docking",
+    "detailedQuotation": "Services: MD Simulantor, Virtual screening + Docking\nTarget Protein: N/A\nAssay Type: N/A",
+    "dueDate": "2026-03-13T00:00:00.000Z",
+    "amount": 23598.82,
+    "paidAmount": 11799.41,
+    "paymentMethod": "Cash",
+    "userSubmittedAt": "2026-02-24T15:17:34.274Z",
+    "salesApprovedAt": "2026-02-24T15:18:06.269Z",
+    "approvedBy": "693690c86d30ad22810f9067",
+    "_id": "699dbfc3a4ff2d109e58c5c5"
+  },
+  "paidAt": "2026-02-24T15:18:06.269Z",
+  "receipt": {
+    "data": {
+      "receiptId": "REC1772426715710",
+      "projectUniqueId": "PRJ0037",
+      "userDetails": {
+        "name": "user",
+        "email": "user@example.com",
+        "uniqueId": "CAG5",
+        "phone": "918456789045",
+        "branch": "Madurai"
+      },
+      "amount": 19999,
+      "paidAmount": 11799.41,
+      "remainingAmount": 11799.41,
+      "baseAmount": 19999,
+      "gst": 18,
+      "taxHandling": "Included in the total quoted amount",
+      "professionalFee": {
+        "amount": 0
+      },
+      "memberCost": 0,
+      "projectDetails": {
+        "title": "PCSK9",
+        "description": "Drug Discovery service for MD Simulantor, Virtual screening + Docking",
+        "quotation": "Services: MD Simulantor, Virtual screening + Docking\nTarget Protein: N/A\nAssay Type: N/A",
+        "department": "Drug Discovery",
+        "paymentMethod": "Cash",
+        "approval": {
+          "approvedBy": "sam",
+          "approvedAt": "2026-02-24T15:18:06.269Z"
+        },
+        "overdueWarning": null
+      },
+      "dueDate": "2026-03-13",
+      "issuedAt": "2026-03-02T04:45:15.714Z",
+      "issuedBy": "sam",
+      "isBalanceReceipt": true,
+      "items": [
+        {
+          "sNo": 1,
+          "description": "PCSK9\nDrug Discovery service for MD Simulantor, Virtual screening + Docking",
+          "hsn": "9983",
+          "qty": 1,
+          "unit": "Nos",
+          "rate": 19999,
+          "gstPercent": 18,
+          "amount": 19999
+        }
+      ]
+    },
+    "generatedAt": "2026-03-02T04:45:15.714Z",
+    "_id": "69afb6e2dd07e34ee6a721aa"
+  },
+  "teamLeadId": "693cf79803e91f879e9816e5",
+  "reviewedAt": "2026-02-26T10:08:48.174Z",
+  "reviewerId": "693690906d30ad22810f9062",
+  "attachments": [],
+  "discount": 0
+}

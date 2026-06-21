@@ -1,0 +1,6 @@
+node_modules/
+.gemini/
+.vscode/
+app.log
+.env
+uploads/

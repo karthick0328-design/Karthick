@@ -1,0 +1,107 @@
+﻿node : node:internal/
+modules/cjs/loader:11
+48
+At line:1 char:1
++ node server.js 2> 
+error.log
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (node:in   
+ ternal/modules/c    
+js/loader:1148:S    
+tring) [], Remot    
+eException
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+  throw err;
+  ^
+
+Error: Cannot find 
+module './mimeScore'
+Require stack:
+- E:\biology\backend\
+node_modules\mime-typ
+es\index.js
+- E:\biology\backend\
+node_modules\express\
+lib\utils.js
+- E:\biology\backend\
+node_modules\express\
+lib\application.js
+- E:\biology\backend\
+node_modules\express\
+lib\express.js
+- E:\biology\backend\
+node_modules\express\
+index.js
+- E:\biology\backend\
+server.js
+    at Module._resolv
+eFilename (node:inter
+nal/modules/cjs/loade
+r:1145:15)
+    at Module._load (
+node:internal/modules
+/cjs/loader:986:27)
+    at 
+Module.require (node:
+internal/modules/cjs/
+loader:1233:19)
+    at require (node:
+internal/modules/help
+ers:179:18)
+    at 
+Object.<anonymous> (E
+:\biology\backend\nod
+e_modules\mime-types\
+index.js:17:17)
+    at 
+Module._compile (node
+:internal/modules/cjs
+/loader:1358:14)
+    at Module._extens
+ions..js (node:intern
+al/modules/cjs/loader
+:1416:10)
+    at Module.load (n
+ode:internal/modules/
+cjs/loader:1208:32)
+    at Module._load (
+node:internal/modules
+/cjs/loader:1024:12)
+    at 
+Module.require (node:
+internal/modules/cjs/
+loader:1233:19) {
+  code: 
+'MODULE_NOT_FOUND',
+  requireStack: [
+    'E:\\biology\\bac
+kend\\node_modules\\m
+ime-types\\index.js',
+    'E:\\biology\\bac
+kend\\node_modules\\e
+xpress\\lib\\utils.js
+',
+    'E:\\biology\\bac
+kend\\node_modules\\e
+xpress\\lib\\applicat
+ion.js',
+    'E:\\biology\\bac
+kend\\node_modules\\e
+xpress\\lib\\express.
+js',
+    'E:\\biology\\bac
+kend\\node_modules\\e
+xpress\\index.js',
+    'E:\\biology\\bac
+kend\\server.js'
+  ]
+}
+
+Node.js v20.16.0
+㉛㈰ⴶ㈰ㄭ吸〱㌺㨹㜴ㄮ㌲嵚銟₥敓癲牥䔠牲牯਺祔数牅潲㩲䌠湡潮⁴敳⁴牰灯牥祴焠敵祲漠⁦㰣湉潣業杮敍獳条㹥眠楨档栠獡漠汮⁹⁡敧瑴牥 †愠⁴㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳硥牰獥⵳潭杮ⵯ慳楮楴敺楜摮硥樮㩳ㄱ㨳㠱 †愠⁴牁慲⹹潦䕲捡⁨㰨湡湯浹畯㹳਩††瑡䔠尺楢汯杯屹慢正湥層潮敤浟摯汵獥敜灸敲獳洭湯潧猭湡瑩穩履湩敤⹸獪ㄺ〱㐺਴††瑡䰠祡牥栮湡汤剥煥敵瑳⠠㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳潲瑵牥汜扩汜祡牥樮㩳㔱㨲㜱਩††瑡琠楲偭敲楦⁸䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥牜畯整屲湩敤⹸獪㌺㈴ㄺ⤳ †愠⁴㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳潲瑵牥楜摮硥樮㩳㤲㨷ਹ††瑡瀠潲散獳慐慲獭⠠㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳潲瑵牥楜摮硥樮㩳㠵㨲㈱਩††瑡渠硥⁴䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥牜畯整屲湩敤⹸獪㈺ㄹ㔺਩††瑡椠瑮牥慮乬硥⁴䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥桜汥敭屴湩敤⹸橣㩳㌵㨱⤶ †愠⁴塸獳牐瑯捥楴湯楍摤敬慷敲⠠㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳敨浬瑥楜摮硥挮獪㌺ㄱ㌺਩慐桴›愯楰愯瑵⽨潬楧੮敍桴摯›佐呓䈊摯㩹甠摮晥湩摥ⴊⴭ嬊〲㘲〭ⴳ〲ㅔ㨲㜲㐺⸰㈵娱⁝鿰ꖒ匠牥敶⁲牅潲㩲䴊汵整䕲牲牯›楆敬琠潯氠牡敧 †愠⁴扡牯坴瑩䍨摯⁥䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥浜汵整屲楬屢慭敫洭摩汤睥牡⹥獪ㄺ㄰㈺⤲ †愠⁴楆敬瑓敲浡㰮湡湯浹畯㹳⠠㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳畭瑬牥汜扩浜歡ⵥ業摤敬慷敲樮㩳ㄲ㨱ㄱ਩††瑡䘠汩卥牴慥⹭浥瑩⠠潮敤攺敶瑮㩳ㄵ㨹㠲਩††瑡匠䵂⹈獳扃嬠獡张扣⁝䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥扜獵潢屹楬屢祴数屳畭瑬灩牡⹴獪㐺㤷㌺⤲ †愠⁴敦摥⠠㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳瑳敲浡敳牡档汜扩獜浢⹨獪㈺㠴ㄺ⤰ †愠⁴䉓䡍瀮獵⁨䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥獜牴慥獭慥捲屨楬屢扳桭樮㩳〱㨴㘱਩††瑡䴠汵楴慰瑲弮牷瑩⁥䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥扜獵潢屹楬屢祴数屳畭瑬灩牡⹴獪㔺㜶ㄺ⤹ †愠⁴牷瑩佥䉲晵敦⁲渨摯㩥湩整湲污猯牴慥獭眯楲慴汢㩥㜵㨰㈱਩††瑡张牷瑩⁥渨摯㩥湩整湲污猯牴慥獭眯楲慴汢㩥㤴㨹〱਩††瑡圠楲慴汢⹥牷瑩⁥渨摯㩥湩整湲污猯牴慥獭眯楲慴汢㩥〵㨸〱਩慐桴›愯楰愯浤湩獡楳湧敭瑮⽳楦慮据⽥硥数獮獥䴊瑥潨㩤倠协੔潂祤›≻敲散灩䑴瑡≥∺〲㘲〭ⴳ〲Ⱒ挢瑡来牯≹∺慗整≲∬慢楳䅣潭湵≴∺〱〰Ⱒ琢硡流畯瑮㨢ㄢ∸∬慰摩潔㨢欢牡桴捩≫∬慰浹湥䵴摯≥∺偕≉∬敤捳楲瑰潩≮∺敪杮湩索ⴊⴭ嬊〲㘲〭ⴳ〲ㅔ㨲㜲㐺⸱ㄹ娰⁝鿰ꖒ匠牥敶⁲牅潲㩲䴊汵整䕲牲牯›楆敬琠潯氠牡敧 †愠⁴扡牯坴瑩䍨摯⁥䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥浜汵整屲楬屢慭敫洭摩汤睥牡⹥獪ㄺ㄰㈺⤲ †愠⁴楆敬瑓敲浡㰮湡湯浹畯㹳⠠㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳畭瑬牥汜扩浜歡ⵥ業摤敬慷敲樮㩳ㄲ㨱ㄱ਩††瑡䘠汩卥牴慥⹭浥瑩⠠潮敤攺敶瑮㩳ㄵ㨹㠲਩††瑡匠䵂⹈獳扃嬠獡张扣⁝䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥扜獵潢屹楬屢祴数屳畭瑬灩牡⹴獪㐺㤷㌺⤲ †愠⁴敦摥⠠㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳瑳敲浡敳牡档汜扩獜浢⹨獪㈺㠴ㄺ⤰ †愠⁴䉓䡍瀮獵⁨䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥獜牴慥獭慥捲屨楬屢扳桭樮㩳〱㨴㘱਩††瑡䴠汵楴慰瑲弮牷瑩⁥䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥扜獵潢屹楬屢祴数屳畭瑬灩牡⹴獪㔺㜶ㄺ⤹ †愠⁴牷瑩佥䉲晵敦⁲渨摯㩥湩整湲污猯牴慥獭眯楲慴汢㩥㜵㨰㈱਩††瑡张牷瑩⁥渨摯㩥湩整湲污猯牴慥獭眯楲慴汢㩥㤴㨹〱਩††瑡圠楲慴汢⹥牷瑩⁥渨摯㩥湩整湲污猯牴慥獭眯楲慴汢㩥〵㨸〱਩慐桴›愯楰愯浤湩獡楳湧敭瑮⽳楦慮据⽥硥数獮獥䴊瑥潨㩤倠协੔潂祤›≻敲散灩䑴瑡≥∺〲㘲〭ⴳ〲Ⱒ挢瑡来牯≹∺慗整≲∬慢楳䅣潭湵≴∺〱〰Ⱒ琢硡流畯瑮㨢ㄢ∸∬慰摩潔㨢欢牡桴捩≫∬慰浹湥䵴摯≥∺偕≉∬敤捳楲瑰潩≮∺敪杮湩索ⴊⴭ嬊〲㘲〭ⴳ〲ㅔ㨲㜲㐺⸲〱娴⁝鿰ꖒ匠牥敶⁲牅潲㩲䴊汵整䕲牲牯›楆敬琠潯氠牡敧 †愠⁴扡牯坴瑩䍨摯⁥䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥浜汵整屲楬屢慭敫洭摩汤睥牡⹥獪ㄺ㄰㈺⤲ †愠⁴楆敬瑓敲浡㰮湡湯浹畯㹳⠠㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳畭瑬牥汜扩浜歡ⵥ業摤敬慷敲樮㩳ㄲ㨱ㄱ਩††瑡䘠汩卥牴慥⹭浥瑩⠠潮敤攺敶瑮㩳ㄵ㨹㠲਩††瑡匠䵂⹈獳扃嬠獡张扣⁝䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥扜獵潢屹楬屢祴数屳畭瑬灩牡⹴獪㐺㤷㌺⤲ †愠⁴敦摥⠠㩅扜潩潬祧扜捡敫摮湜摯彥潭畤敬屳瑳敲浡敳牡档汜扩獜浢⹨獪㈺㠴ㄺ⤰ †愠⁴䉓䡍瀮獵⁨䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥獜牴慥獭慥捲屨楬屢扳桭樮㩳〱㨴㘱਩††瑡䴠汵楴慰瑲弮牷瑩⁥䔨尺楢汯杯屹慢正湥層潮敤浟摯汵獥扜獵潢屹楬屢祴数屳畭瑬灩牡⹴獪㔺㜶ㄺ⤹ †愠⁴牷瑩佥䉲晵敦⁲渨摯㩥湩整湲污猯牴慥獭眯楲慴汢㩥㜵㨰㈱਩††瑡张牷瑩⁥渨摯㩥湩整湲污猯牴慥獭眯楲慴汢㩥㤴㨹〱਩††瑡圠楲慴汢⹥牷瑩⁥渨摯㩥湩整湲污猯牴慥獭眯楲慴汢㩥〵㨸〱਩慐桴›愯楰愯浤湩獡楳湧敭瑮⽳楦慮据⽥硥数獮獥䴊瑥潨㩤倠协੔潂祤›≻敲散灩䑴瑡≥∺〲㘲〭ⴳ〲Ⱒ挢瑡来牯≹∺慗整≲∬慢楳䅣潭湵≴∺〱〰Ⱒ琢硡流畯瑮㨢ㄢ∸∬慰摩潔㨢欢牡桴捩≫∬慰浹湥䵴摯≥∺偕≉∬敤捳楲瑰潩≮∺敪杮湩索ⴊⴭ

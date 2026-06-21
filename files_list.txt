@@ -1,0 +1,6 @@
+﻿E:\biology\backend\Controller\attendanceController.js
+E:\biology\backend\models\Attendance.js
+E:\biology\backend\routes\attendanceRoutes.js
+E:\biology\frontend\app\Compontent\RealTimeAttendanceWidget.tsx
+E:\biology\frontend\app\manager-dashboard\department\hr\Attendance
+E:\biology\frontend\app\subadmin-dashboard\department\humanresources\Attendance

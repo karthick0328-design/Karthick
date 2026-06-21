@@ -1,0 +1,222 @@
+[
+  {
+    "_id": "6918797ccdf12b9fc4dcca1f",
+    "name": "Karthick",
+    "role": "admin",
+    "uniqueId": "CAG3"
+  },
+  {
+    "_id": "691adb1f7d723d6f19e24974",
+    "name": "user",
+    "role": "user",
+    "uniqueId": "CAG5",
+    "department": "",
+    "service": ""
+  },
+  {
+    "_id": "691af4403dfb4fe8683a8de9",
+    "name": "User1",
+    "role": "user",
+    "uniqueId": "CAG12"
+  },
+  {
+    "_id": "691af49a3dfb4fe8683a8df0",
+    "name": "User2",
+    "role": "user",
+    "uniqueId": "CAG13"
+  },
+  {
+    "_id": "691af4f93dfb4fe8683a8df7",
+    "name": "User3",
+    "role": "user",
+    "uniqueId": "CAG14"
+  },
+  {
+    "_id": "691af6ea6139b56527df4409",
+    "name": "User4",
+    "role": "user",
+    "uniqueId": "CAG15"
+  },
+  {
+    "_id": "691af7556139b56527df4410",
+    "name": "User5",
+    "role": "user",
+    "uniqueId": "CAG16"
+  },
+  {
+    "_id": "69302721654e4ffca5774291",
+    "uniqueId": "CAG049",
+    "name": "jano",
+    "role": "superadmin",
+    "department": "",
+    "service": ""
+  },
+  {
+    "_id": "69313a677d772e6c758276f0",
+    "name": "Prabha",
+    "role": "head",
+    "department": "Sales and Customer Services",
+    "service": "",
+    "uniqueId": "CAG050"
+  },
+  {
+    "_id": "69315898613693fc58ce3c75",
+    "name": "Dhasa",
+    "role": "employee",
+    "department": "",
+    "service": "Drug Discovery",
+    "uniqueId": "CAG052"
+  },
+  {
+    "_id": "6931637629c402008c8fe6a9",
+    "name": "Babu",
+    "role": "manager",
+    "department": "",
+    "service": "NGS",
+    "uniqueId": "CAG054"
+  },
+  {
+    "_id": "6931699e29c402008c8fe700",
+    "name": "Saran",
+    "role": "manager",
+    "department": "Financial",
+    "service": "",
+    "uniqueId": "CAG056"
+  },
+  {
+    "_id": "69328976bcccd7b56f55a91e",
+    "name": "ManagerHR",
+    "role": "manager",
+    "department": "Human Resources",
+    "service": "",
+    "uniqueId": "CAG057"
+  },
+  {
+    "_id": "693690906d30ad22810f9062",
+    "name": "sikki",
+    "role": "manager",
+    "department": "",
+    "service": "Drug Discovery",
+    "uniqueId": "CAG060"
+  },
+  {
+    "_id": "693690c86d30ad22810f9067",
+    "name": "sam",
+    "role": "manager",
+    "department": "Sales and Customer Services",
+    "service": "Drug Discovery",
+    "uniqueId": "CAG061"
+  },
+  {
+    "_id": "6937ae9dd32bd4f545624774",
+    "name": "user7",
+    "role": "user",
+    "department": "",
+    "service": "",
+    "uniqueId": "CAG062"
+  },
+  {
+    "_id": "693cf79803e91f879e9816e5",
+    "name": "santhosh",
+    "role": "tl",
+    "department": "",
+    "service": "Drug Discovery",
+    "uniqueId": "CAG064"
+  },
+  {
+    "_id": "695f3be2009fda69acf82851",
+    "name": "employeeD",
+    "role": "employee",
+    "department": "",
+    "service": "Drug Discovery",
+    "uniqueId": "CAG070"
+  },
+  {
+    "_id": "695f3c31009fda69acf82856",
+    "name": "employeeD2",
+    "role": "employee",
+    "department": "",
+    "service": "Drug Discovery",
+    "uniqueId": "CAG071"
+  },
+  {
+    "_id": "69649ca06eefe3516b13d7af",
+    "name": "IT",
+    "role": "manager",
+    "department": "",
+    "service": "Software Development",
+    "uniqueId": "CAG072"
+  },
+  {
+    "_id": "6978641ad8b420df9fd20fe5",
+    "name": "prakash",
+    "role": "manager",
+    "department": "",
+    "service": "Microbiology",
+    "uniqueId": "CAG079"
+  },
+  {
+    "_id": "69802d800ada546a2c590f11",
+    "name": "employeef",
+    "role": "employee",
+    "department": "Financial",
+    "service": "",
+    "uniqueId": "CAG080"
+  },
+  {
+    "_id": "69802dd10ada546a2c590f17",
+    "name": "employeef1",
+    "role": "employee",
+    "department": "Financial",
+    "service": "",
+    "uniqueId": "CAG081"
+  },
+  {
+    "_id": "69802e1a0ada546a2c590f1d",
+    "name": "employeef2",
+    "role": "employee",
+    "department": "Financial",
+    "service": "",
+    "uniqueId": "CAG082"
+  },
+  {
+    "_id": "6986dc31145094ec7166b8a4",
+    "name": "krish",
+    "role": "tl",
+    "department": "",
+    "service": "Drug Discovery",
+    "uniqueId": "CAG087"
+  },
+  {
+    "_id": "6995a0f08f5829146a667e2b",
+    "name": "Test User",
+    "role": "user",
+    "department": "",
+    "service": "",
+    "uniqueId": "CAG090"
+  },
+  {
+    "_id": "69a17f00c7415d535d0f353d",
+    "name": "deepak",
+    "role": "employee",
+    "department": "",
+    "service": "Drug Discovery",
+    "uniqueId": "CAG091"
+  },
+  {
+    "_id": "69a67c7c41076c80a0f75430",
+    "name": "sathish",
+    "role": "manager",
+    "department": "Sales and Customer Services",
+    "service": "NGS",
+    "uniqueId": "CAG092"
+  },
+  {
+    "_id": "69c3c12d9c998a644e28ace7",
+    "name": "Kishore",
+    "role": "manager",
+    "department": "",
+    "service": "Drug Discovery",
+    "uniqueId": "CAG093"
+  }
+]

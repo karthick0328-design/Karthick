@@ -1,0 +1,126 @@
+{
+  "success": true,
+  "data": {
+    "period": {
+      "month": 3,
+      "year": 2026
+    },
+    "summary": {
+      "netGSTPayable": 90,
+      "totalOutputTax": 90,
+      "totalInputTax": 0
+    },
+    "outputTax": {
+      "total": 90,
+      "igst": 90,
+      "cgst": 0,
+      "sgst": 0
+    },
+    "inputTax": {
+      "total": 0,
+      "igst": 0,
+      "cgst": 0,
+      "sgst": 0
+    },
+    "salesData": [
+      {
+        "id": "699bee6be1ea78ad5939180c",
+        "date": "2026-02-23",
+        "docNumber": "PRJ0035",
+        "partyName": "user",
+        "partyGSTIN": "NA",
+        "categoryOrState": "Drug Discovery",
+        "description": "Project Payment",
+        "hsnSac": "998111",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 11799.9823,
+        "gstRate": 18,
+        "discount": 0,
+        "isInterState": true
+      },
+      {
+        "id": "699dbb30a4ff2d109e58c1c4",
+        "date": "2026-02-24",
+        "docNumber": "PRJ0037",
+        "partyName": "user",
+        "partyGSTIN": "NA",
+        "categoryOrState": "Drug Discovery",
+        "description": "PCSK9",
+        "hsnSac": "998111",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 11799.41,
+        "gstRate": 18,
+        "discount": 0,
+        "isInterState": true
+      },
+      {
+        "id": "699ed1cd621942ed1e2bfbcc",
+        "date": "2026-03-02",
+        "docNumber": "PRJ0038",
+        "partyName": "user",
+        "partyGSTIN": "NA",
+        "categoryOrState": "Drug Discovery",
+        "description": "kkkk",
+        "hsnSac": "998111",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 11800,
+        "gstRate": 18,
+        "discount": 0,
+        "isInterState": true
+      },
+      {
+        "id": "69a671e741076c80a0f747a2",
+        "date": "2026-03-03",
+        "docNumber": "PRJ0043",
+        "partyName": "user",
+        "partyGSTIN": "NA",
+        "categoryOrState": "Drug Discovery",
+        "description": "lotus",
+        "hsnSac": "998111",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 11800,
+        "gstRate": 18,
+        "discount": 0,
+        "isInterState": true
+      },
+      {
+        "id": "69a677bc41076c80a0f750f4",
+        "date": "2026-03-03",
+        "docNumber": "PRJ0044",
+        "partyName": "user7",
+        "partyGSTIN": "NA",
+        "categoryOrState": "NGS",
+        "description": "NGS Project - Human feces",
+        "hsnSac": "998111",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 64900,
+        "gstRate": 18,
+        "discount": 0,
+        "isInterState": true
+      }
+    ],
+    "expensesData": [
+      {
+        "id": "69bd3e2ce2ac7a707801872c",
+        "date": "2026-03-20",
+        "docNumber": "EXP",
+        "partyName": "jano",
+        "partyGSTIN": "NA",
+        "categoryOrState": "Water",
+        "description": "dfbbd",
+        "hsnSac": "998311",
+        "unit": "Nos",
+        "quantity": 1,
+        "costPerUnit": 1000,
+        "gstRate": 0,
+        "discount": 0,
+        "isInterState": true
+      }
+    ]
+  }
+}
