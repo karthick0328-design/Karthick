@@ -2,9 +2,11 @@
 
 import dynamic from 'next/dynamic';
 
-const ProfileContent = dynamic(
+const DynamicProfileContentInner = dynamic(
   () => import('./ProfileContentInner'),
   { ssr: false }
 );
 
-export default ProfileContent;
+export default function ProfileContent(props: any) {
+  return <DynamicProfileContentInner {...props} />;
+}
